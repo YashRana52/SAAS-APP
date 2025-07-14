@@ -12,7 +12,7 @@ A full-stack SAAS platform built to help users manage subscriptions, access prem
 
 ## 📸 Screenshots
 
-| Dashboard                        | Pricing Page                     | History                  |
+| Dashboard                        | Image Generation                    | History                  |
 |----------------------------------|----------------------------------|-----------------------------------|
 | ![Dashboard](./screenshots/dashboard.png) | ![Image](./screenshots/pricing.png) | ![Profile](./screenshots/profile.png) |
 
