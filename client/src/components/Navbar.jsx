@@ -12,7 +12,7 @@ function Navbar() {
   const { openSignIn } = useClerk();
 
   return (
-    <div className="fixed z-50 w-full flex justify-between items-center  px-3 sm:px-20 xl:px-32 bg-white dark:bg-black transition-colors duration-300 shadow-md">
+    <div className="fixed z-50 w-full flex justify-between items-center  px-3 pt-1 sm:px-20 xl:px-32 bg-white dark:bg-black transition-colors duration-300 shadow-md">
       <img
         onClick={() => navigate('/')}
         src={assets.logo1}
