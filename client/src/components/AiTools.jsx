@@ -23,7 +23,7 @@ function AiTools() {
         {AiToolsData.map((tool, index) => (
           <div
             key={index}
-            className="p-6 sm:p-8 w-full max-w-xs bg-[#FDFDFE] dark:bg-[#1e1e2e] rounded-2xl shadow-md dark:shadow-none border border-gray-200 dark:border-gray-700 hover:-translate-y-2 transform transition-all duration-300 cursor-pointer"
+            className="p-6 sm:p-8 w-full sm:max-w-sm md:max-w-md lg:max-w-xs bg-[#FDFDFE] dark:bg-[#1e1e2e] rounded-2xl shadow-md dark:shadow-none border border-gray-200 dark:border-gray-700 hover:-translate-y-2 transform transition-all duration-300 cursor-pointer"
             onClick={() => {
               if (user) {
                 navigate(tool.path);
