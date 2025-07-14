@@ -28,11 +28,6 @@ A full-stack SAAS platform built to help users manage subscriptions, access prem
 - Profile management and session history.
 - Secure and responsive UI with modern components.
 
-### 🛠️ Admin Features
-- Admin dashboard with analytics (e.g. active users, revenue).
-- Manage users, subscriptions, and usage.
-- Update pricing plans and feature access levels.
-
 ---
 
 ## 🤖 AI Features
