@@ -62,10 +62,6 @@ A full-stack SAAS platform built to help users manage subscriptions, access prem
   - Auto-billing and retry logic
   - Payment flow managed via Clerk's test user mode for safe dev/test billing flows
 
-- 📩 **Email Integration**  
-  - Welcome emails on sign-up
-  - Billing and payment reminders
-  - Custom email templates for marketing or alerts
 
 - 🔋 **Neon Database (PostgreSQL)**
   - Serverless, scalable cloud database.
@@ -95,16 +91,15 @@ A full-stack SAAS platform built to help users manage subscriptions, access prem
 ## 📂 Folder Structure
 
 ```bash
-SAAS-APP/
-├── src/               # React App Directory
-│   ├── dashboard/
-│   ├── auth/
-│   └── api/
-├── components/        # Reusable UI Components
-├── lib/               # Utils and Stripe/Clerk/Prisma configs           
-├── public/            # Static assets
-├── styles/            # Tailwind and global CSS
-├── .env.local         # Environment variables
+Saas App/
+├── frontend/         # React Frontend
+│   ├── public/
+│   └── src/
+├── backend/          # Node.js + Express Backend
+│   ├── routes/
+│   ├── controllers/
+│   └── server.js
+├── screenshots/      # UI screenshots
 └── README.md
 ```
 
