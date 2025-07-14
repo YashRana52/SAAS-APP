@@ -6,7 +6,7 @@ A full-stack SAAS platform built to help users manage subscriptions, access prem
 
 ## 🚀 Live Demo
 
-🔗 [View Live](https://your-saas-app-url.com)
+🔗 [View Live](https://saas-app-client-ruby.vercel.app)
 
 ---
 
@@ -14,7 +14,7 @@ A full-stack SAAS platform built to help users manage subscriptions, access prem
 
 | Dashboard                        | Pricing Page                     | Profile Settings                  |
 |----------------------------------|----------------------------------|-----------------------------------|
-| ![Dashboard](./screenshots/dashboard.png) | ![Pricing](./screenshots/pricing.png) | ![Profile](./screenshots/profile.png) |
+| ![Dashboard](./screenshots/dashboard.png) | ![Image](./screenshots/pricing.png) | ![Profile](./screenshots/profile.png) |
 
 ---
 
@@ -101,8 +101,7 @@ SAAS-APP/
 │   ├── auth/
 │   └── api/
 ├── components/        # Reusable UI Components
-├── lib/               # Utils and Stripe/Clerk/Prisma configs
-├── prisma/            # Prisma schema and migrations
+├── lib/               # Utils and Stripe/Clerk/Prisma configs           
 ├── public/            # Static assets
 ├── styles/            # Tailwind and global CSS
 ├── .env.local         # Environment variables
@@ -148,12 +147,6 @@ DATABASE_URL=your_neon_postgres_url
 
 ### 3️⃣ Setup Database (Neon + Prisma)
 
-
-
-To apply migrations:
-```bash
-npx prisma migrate dev --name init
-```
 
 ---
 
